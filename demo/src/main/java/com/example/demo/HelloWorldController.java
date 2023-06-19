@@ -18,4 +18,10 @@ public class HelloWorldController
         return "Hello firstendPointgit ";
     }
 
+    @RequestMapping("/second")
+    public String secondEndPoint()
+    {
+        return "Hello secondendPointgit to main  ";
+    }
+
 }
