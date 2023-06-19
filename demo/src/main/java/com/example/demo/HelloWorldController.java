@@ -19,9 +19,15 @@ public class HelloWorldController
     }
 
     @RequestMapping("/second")
-    public String secondEndPoint()
-    {
+    public String secondEndPoint() {
         return "Hello secondendPointgit to main  ";
+
+    }
+
+    @RequestMapping("/third")
+    public String thirdEndPoint()
+    {
+        return "Hello thirdendPointgit ";
     }
 
 }
