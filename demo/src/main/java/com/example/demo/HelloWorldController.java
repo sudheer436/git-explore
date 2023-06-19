@@ -12,4 +12,10 @@ public class HelloWorldController
         return "Hello git : feature";
     }
 
+    @RequestMapping("/first")
+    public String firstEndPoint()
+    {
+        return "Hello firstendPointgit ";
+    }
+
 }
